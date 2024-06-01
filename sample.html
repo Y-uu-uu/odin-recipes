@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aligned List Items</title>
+<style>
+  .container {
+    text-align: center; /* Center-align the container */
+  }
+
+  /* Style the list items */
+  ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+
+  ul li {
+    margin-bottom: 10px; /* Adjust spacing between list items */
+  }
+
+  .left {
+    text-align: left; /* Align list items to the left */
+  }
+
+  .center {
+    text-align: center; /* Align list items to the center */
+  }
+
+  .right {
+    text-align: right; /* Align list items to the right */
+  }
+
+  /* Style the bullets */
+  ul li.left::before {
+    content: "•"; /* Bullet character */
+    margin-right: 10px; /* Adjust spacing between bullet and text */
+  }
+
+  ul li.center::before {
+    content: "•"; /* Bullet character */
+    margin-right: 5px; /* Adjust spacing between bullet and text */
+    margin-left: 5px; /* Adjust spacing between bullet and text */
+  }
+
+  ul li.right::before {
+    content: "•"; /* Bullet character */
+    margin-left: 10px; /* Adjust spacing between bullet and text */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <ul>
+    <li class="left">Left Aligned Item 1</li>
+    <li class="center">Center Aligned Item 1</li>
+    <li class="right">Right Aligned Item 1</li>
+  </ul>
+</div>
+
+</body>
+</html>

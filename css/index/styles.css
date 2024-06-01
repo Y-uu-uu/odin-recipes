@@ -1,11 +1,21 @@
 * {
     font-family: 'Courier New';
+    margin: 0 auto;
 }
 
-h1 {
+.title-div {
+    padding: 10px;
+    background-color: purple;
+    width: 500px;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.title {
     background-color: yellow;
     color: purple;
     text-align: center;
+    padding: 10px;
 }
 
 a {
@@ -13,4 +23,34 @@ a {
     font-weight: 900;
     text-decoration: none;
     color: wheat;
+}
+
+
+.ul-div {
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    background-color: red;
+    margin: 10px;
+}
+
+ul {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    list-style-position: inside;
+}
+
+.one {
+    text-align: left;
+}
+
+.two {
+    text-align: center;
+}
+
+.three {
+    text-align: right;
 }
