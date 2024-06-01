@@ -1,0 +1,32 @@
+h1 {
+    color: green;
+    background-color: red;
+}
+
+img {
+    width: 360px;
+    height: auto;
+}
+
+h2 {
+    color: red;
+    background-color: green;
+}
+
+ul {
+    background-color: gray;
+}
+
+ul li {
+    background-color: black;
+    color: white;
+}
+
+ol {
+    background-color: yellow;
+}
+
+ol li {
+    background-color: green;
+    color: red;
+}

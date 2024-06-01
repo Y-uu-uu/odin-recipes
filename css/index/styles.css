@@ -1,0 +1,16 @@
+* {
+    font-family: 'Courier New';
+}
+
+h1 {
+    background-color: yellow;
+    color: purple;
+    text-align: center;
+}
+
+a {
+    background-color: black;
+    font-weight: 900;
+    text-decoration: none;
+    color: wheat;
+}
